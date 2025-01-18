@@ -1,0 +1,20 @@
+[DESY5SN]
+git-tree-sha1 = "0d0c68825785c0cefe3b76ae71f3572f4d74d76b"
+
+    [[DESY5SN.download]]
+    sha256 = "f371d9803bbe7e759253a50b4e2a8b156feed5377c222ce8d8bc83644be6ebed"
+    url = "https://gist.github.com/drew2799/bf2f9ee65fff75b44f906d35be115f92/raw/0d0c68825785c0cefe3b76ae71f3572f4d74d76b.tar.gz"
+
+[PantheonPlusSN]
+git-tree-sha1 = "3d98fcf9c51af8d2b0d0f5227af2f2a1057a8703"
+
+    [[PantheonPlusSN.download]]
+    sha256 = "7d8d8ee14a85d5802b8ab558c52654aeac144351b67a871ae66b591c42c32480"
+    url = "https://gist.github.com/drew2799/69de4a50da70e05eacc534bbbf75cab5/raw/3d98fcf9c51af8d2b0d0f5227af2f2a1057a8703.tar.gz"
+
+[Union3SN]
+git-tree-sha1 = "9b0d09fcf6481eaf4a5f5b7cfc3ce910f52a1681"
+
+    [[Union3SN.download]]
+    sha256 = "3832e47aea27892a7ea3682668c713391ab156268c38706b168d275415226186"
+    url = "https://gist.github.com/drew2799/cab466c6b259f4d8019f485117260c38/raw/9b0d09fcf6481eaf4a5f5b7cfc3ce910f52a1681.tar.gz"
