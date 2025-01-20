@@ -9,7 +9,10 @@ using LaTeXStrings
 include("Likelihood_utils.jl")
 
 export SN, load_SN
-export 
+export DESY5SN_info, PantheonPlusSN_info, Union3SN_info,
+        chi2, compute_DESY5SNLikelihood, compute_PantheonPlusSNLikelihood, compute_Union3SNLikelihood,
+        DESY5SNLikelihood, PantheonPlusSNLikelihood, Union3SNLikelihood,
+        plotting_chains
 
 function __init__()
 
