@@ -208,7 +208,8 @@ function plotting_chains(chain::Chains, labels::Dict, axis::Dict)
         PairPlots.MarginDensity(
             color=c1,
             linewidth=1.5f0),
-        PairPlots.MarginQuantileText(color=:black,font=:regular),
+        PairPlots.PairPlots.MarginConfidenceLimits(PairPlots.margin_confidence_default_formatter, (0.16,0.5,0.84)),
+        #PairPlots.MarginQuantileText(color=:black,font=:regular),
             #PairPlots.margin_confidence_default_formatter, (0.16,0.5,0.84)),
     )
     
